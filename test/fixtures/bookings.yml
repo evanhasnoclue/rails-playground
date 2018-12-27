@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  hours_lasting: 1
+  price_total: 1
+  pay_status: MyString
+  user: one
+
+two:
+  hours_lasting: 1
+  price_total: 1
+  pay_status: MyString
+  user: two

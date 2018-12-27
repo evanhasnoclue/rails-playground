@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  date: MyString
+  start_time: MyString
+  end_time: MyString
+  status: MyString
+  field: one
+  booking: one
+
+two:
+  date: MyString
+  start_time: MyString
+  end_time: MyString
+  status: MyString
+  field: two
+  booking: two
