@@ -5,3 +5,8 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+Sport.destroy_all
+
+['basketball','football','badminton','tennis'].each do |name|
+  Sport.create(name: name, photo: "#{name}.jpg")
+end
