@@ -23,5 +23,12 @@ Field.create(sport_id: 3, name: 'badminton 1', capacity: 5, price_per_hour: 30)
 Field.create(sport_id: 3, name: 'badminton 2', capacity: 5, price_per_hour: 30)
 
 
+User.destroy_all
+
+User.create(nickname: 'Apple', wechat_id:'111', gender: 0, phone: '123456789', city: 'Beijing', avatar: 'ppp.jpg')
+User.create(nickname: 'Banana', wechat_id:'222', gender: 1, phone: '138746328764', city: 'Shanghai', avatar: 'bbb.jpg')
+User.create(nickname: 'Coconut', wechat_id:'333', gender: 1, phone: '1223736644', city: 'Shanghai', avatar: 'ccc.jpg')
+
+
 # Booking_slot.destroy_all
 # Booking_slot.create()

@@ -76,6 +76,7 @@ ActiveRecord::Schema.define(version: 2018_12_27_121017) do
 
   create_table "users", force: :cascade do |t|
     t.string "nickname"
+    t.string "wechat_id"
     t.string "gender"
     t.string "phone"
     t.string "city"
