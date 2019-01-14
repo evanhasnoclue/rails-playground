@@ -1,8 +1,5 @@
 class Api::V1::FieldsController < Api::V1::BaseController
 
-  def create
-  end
-
   def update
     @field = Field.find(params[:id])
     if @field.update(params_field)
